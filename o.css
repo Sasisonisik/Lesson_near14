@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(164, 194, 219) 0%,
+    rgb(167, 106, 196) 100%
+  );
+}
+
+p {
+  font-size: 70px;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.tab {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tab td {
+  padding: 20px;
+  border: 1px solid gold;
+  border-width: 3px;
+  font-size: 20px;
+  /* outline: 1px black; */
+  transition: 0;
+}
+
+.tab th {
+  padding: 20px;
+  border: 3px solid gold;
+  border-width: 4px;
+  font-size: 40px;
+  /* outline: 1px black; */
+  transition: 0;
+}
+
+.tab td:hover {
+  outline: 6px solid greenyellow;
+  outline-width: 6px;
+  transition-duration: 300ms;
+}
+
+.tab th:hover {
+  outline: 6px solid greenyellow;
+  outline-width: 6px;
+  transition-duration: 300ms;
+}
